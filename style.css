@@ -1,0 +1,266 @@
+header {
+  border-bottom: 2px solid goldenrod;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+#logo {
+  border: 2px solid goldenrod;
+}
+
+.nav-link {
+  height: 40px;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  border-radius: 25px;
+}
+.nav-link:hover {
+  color: goldenrod;
+  background-color: black;
+}
+#logo {
+  height: 20vh;
+}
+#logo_contact {
+  height: 25vh;
+}
+
+#hero {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  height: 50vh;
+  background-image: url(images/hero-pic.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.salon_name {
+  font-size: 3em;
+  font-style: italic;
+  color: white;
+}
+.hero_logo {
+  border: 2px solid goldenrod;
+  height: 25vh;
+  margin-bottom: 2%;
+}
+.slogan {
+  font-style: italic;
+  color: goldenrod;
+}
+.heading {
+  color: goldenrod;
+  font-style: italic;
+}
+#locations {
+  height: 50vh;
+}
+.pic{
+  max-height: 300px;
+  object-fit:cover;
+  width: 100%;
+}
+#coulon{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#coulon_btm{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* .coulon_pic{
+  max-height: 250px;
+  object-fit:cover;
+  width: 100%;
+} */
+
+img {
+  border: 2px solid goldenrod;
+}
+h1,h2,h3,h4{
+  color: goldenrod;
+  font-style: italic;
+}
+h1{
+  margin-top: .5rem;
+  margin-bottom: rem;
+}
+.our_services{
+  font-size: large;
+}
+
+.btn {
+  margin-top: 2rem;
+  height: 40px;
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  border-radius: 25px;
+}
+.btn:hover {
+  color: goldenrod;
+  background-color: black;
+  border: 2px solid goldenrod;
+}
+.home_bottom_image {
+ max-height: 30vh;
+ width: 100%;
+ object-fit: cover;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  padding-top: 2vh;
+  border-top: 2px solid goldenrod;
+}
+
+iframe {
+  max-height: 25vh;
+  width: 100%;
+  border: 2px solid goldenrod;
+}
+.services{
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+}
+.list{
+  border: 2px solid goldenrod;
+}
+.services_list{
+  height: 40vh;
+}
+.services_list  h3{
+  font-size:3rem;
+  font-style: italic;
+color: goldenrod;
+}
+.services_list li{
+  font-size: x-large;
+}
+.list_items{
+  font-style: italic;
+  margin-top: 1.5rem;
+}
+#book-btn{
+  margin-bottom: 10%;
+  width: 30%;
+}
+.stylist_pic {
+  object-fit: contain;
+ max-width: 100%;
+ max-height: 400px;
+}
+.stylist_name {
+  color: goldenrod;
+  font-style: italic;
+}
+ul {
+  list-style: none;
+}
+.address {
+  color: goldenrod;
+  font-style: italic;
+}
+.info{
+    color:black;
+    text-decoration: none;
+}
+#back-vid{
+  background-color: black;
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.form-control{
+  border: 2px solid goldenrod;
+}
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: -.5px;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid goldenrod;
+}
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: -.7px;
+  position: relative;
+  background-color: black;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid goldenrod;
+}
+@media screen and (max-width:768px){
+  .hero_logo {
+    border: 2px solid goldenrod;
+    height: 20vh;
+    margin-bottom: 2%;
+  }
+  #locations{
+    height: fit-content;
+  }
+   #locations img{
+   max-height: 225px;
+   } 
+   #locations .btn{
+    margin-bottom: .5rem;
+   } 
+#services_bookbtn{
+  max-height: 30vh;
+}
+.contact_info{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#logo{
+  margin-bottom:.5rem ;
+}
+.navbar-nav{
+  gap: .5rem;
+}
+.foot-btn{
+  margin-bottom: 1rem;
+}
+.coulon_pic{
+}
+}
+@media screen and (max-width:425px){
+  .services{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #our_services{
+    margin-top: 5rem;
+  }
+  #services_book-btn{
+    margin-top: 95vh;
+    width: 50%;
+  }
+ 
+  #book-btn{
+    width: 60%;
+  }
+  .coulon_pic{
+
+  }
+ 
+}
